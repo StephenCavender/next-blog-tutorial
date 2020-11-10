@@ -2,6 +2,8 @@
 
 This is a follow-along repo for [Learn Next.js tutorial](https://nextjs.org/learn).
 
+[Then converted to TypeScript](https://nextjs.org/learn/excel/typescript)
+
 This project was generated with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with a [template](https://github.com/vercel/next-learn-starter/tree/master/learn-starter).
 
 ## Development server
