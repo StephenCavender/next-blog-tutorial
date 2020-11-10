@@ -1,6 +1,6 @@
-This is a follow-along repo for [Learn Next.js tutorial](https://nextjs.org/learn).
-
 # next-blog-tutorial
+
+This is a follow-along repo for [Learn Next.js tutorial](https://nextjs.org/learn).
 
 This project was generated with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with a [template](https://github.com/vercel/next-learn-starter/tree/master/learn-starter).
 
