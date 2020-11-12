@@ -1,3 +1,11 @@
-module.exports = {
-    basePath: '/next-blog-tutorial'
+const { PHASE_EXPORT } = require('next/constants')
+
+module.exports = (phase, { defaultConfig }) => {
+  if (phase === PHASE_EXPORT) {
+    return {
+        basePath: '/next-blog-tutorial'
+    }
+  }
+
+  return { }
 }
