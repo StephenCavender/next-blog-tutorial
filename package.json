@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "next build && next export && touch out/.nojekyll",
-    "deploy": "gh-pages -d out -t"
+    "predeploy": "npm run export && touch out/.nojekyll",
+    "deploy": "gh-pages -d out -t",
+    "export": "next build && next export"
   },
   "dependencies": {
     "date-fns": "^2.16.1",
